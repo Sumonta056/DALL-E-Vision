@@ -1,8 +1,8 @@
 
 <div align = "center">
 
-# DALL·E ভিশন
-DALL·E ভিশন: A Perspective Towards Dreamy Creations in Images!
+# 👁️ DALL·E ভিশন 👁️
+✍️ DALL·E ভিশন: A Perspective Towards Dreamy Creations in Images! ✍️
 
 <img src = "./frontend/src/assets/base2.png" width = "300px" >
 <img src = "./frontend/src/assets/base3.png" width = "300px" >
@@ -55,9 +55,10 @@ npm install
   - 👉 Open "index.js" file from backend
   - 👉 Modify The Below Code with OpenAI API Key
 ```code
-const openai = new OpenAI({
-  apiKey: "Write Your API KEY",
-});
+ headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer Your-API-KEY-Here`,
+      },
 ```
 
 - 👉 Start the backend using the following command:
